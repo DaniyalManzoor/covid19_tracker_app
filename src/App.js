@@ -15,7 +15,6 @@ class App extends Component {
     const { data } = this.state;
     return (
       <div className={styles.container}>
-        fetchData();
         <Cards data={data} />
       </div>
     );
