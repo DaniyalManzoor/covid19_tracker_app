@@ -1,5 +1,7 @@
-﻿# Corona Virus Tracker Web Application
-http://covid19-virus-tracker.surge.sh/
+﻿# Covid19 Tracker Web Application
+ 
+ https://covid19_tracker_app_28.surge.sh/
+
 ### *COVID-19 Tracker Application that displays, current infected, recovered and death cases due to corona virus, Globally and Country wise with Charts and explainations.*
 
 ## Task
@@ -12,7 +14,7 @@ Built this app to share awareness to people of the world about this Pandemic! , 
 
 ## Run Locally 
 
-- Run this command `git clone https://github.com/developer-junaid/coronavirustracker.git`
+- Run this command `git clone https://github.com/daniyalmanzoor28/covid19_tracker_app.git`
 - You are now in the dev environment and you can play around 
 
 ## Tech Stack
