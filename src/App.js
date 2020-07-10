@@ -3,6 +3,7 @@ import { fetchData } from "./api/index";
 import Cards from "./components/Cards/cards";
 import CountryPicker from "./components/CountryPicker/countryPicker";
 import Chart from "./components/Chart/chart";
+import GoogleMap from "./components/googleMap/googleMap";
 import styles from "./App.module.css";
 
 class App extends Component {
@@ -28,6 +29,7 @@ class App extends Component {
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
+        {/* <GoogleMap /> */}
       </div>
     );
   }
