@@ -3,7 +3,8 @@ import { fetchData } from "./api/index";
 import Cards from "./components/Cards/cards";
 import CountryPicker from "./components/CountryPicker/countryPicker";
 import Chart from "./components/Chart/chart";
-import GoogleMap from "./components/googleMap/googleMap";
+import covid19 from "./image/covid19.png";
+// import GoogleMap from "./components/googleMap/googleMap";
 import styles from "./App.module.css";
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
     const { data, country } = this.state;
     return (
       <div className={styles.container}>
+        <img className={styles.image} src={covid19} alt="COVID_19" />
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
